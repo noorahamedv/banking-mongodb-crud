@@ -1,6 +1,6 @@
 # 🏦 Banking System Analytics using MongoDB Atlas
 
-This project implements a realistic banking scenario using **MongoDB Atlas** to manage financial transactions, customer profiles, and account activity. It simulates real-world business transactions with a NoSQL schema and includes CRUD operations and aggregations.
+This project implemented a realistic banking scenario using **MongoDB Atlas** to manage small scale financial transactions, customer profiles, and account activity. Stimulated real-world business transactions with a NoSQL schema and includes CRUD operations and aggregations.
 
 ---
 
