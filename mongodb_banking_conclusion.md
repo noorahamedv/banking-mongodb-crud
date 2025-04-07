@@ -1,7 +1,7 @@
 
 ## ✅ Conclusion: MongoDB Banking Data Analysis
 
-This project successfully modeled and analyzed a simplified banking system using **MongoDB**. Each collection represented a core component of banking operations and the aggregation pipelines provided meaningful business insights.
+Successfully modeled and analyzed a simplified banking system using **MongoDB**. Each collection represented a core component of banking operations and the aggregation pipelines provided meaningful business insights.
 
 ### 🔍 Key Findings:
 
