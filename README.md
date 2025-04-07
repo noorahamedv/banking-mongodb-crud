@@ -49,6 +49,16 @@ This project implemented a realistic banking scenario using **MongoDB Atlas** to
    - Tracks deposit/withdrawal operations with timestamps and descriptions.
    - Keys: `transaction_id`, `account_id`, `amount`, `type`, `timestamp`, `description`
 
+Aggregation Pipelines:
+Each collection has at least one aggregation pipeline:
+- Total loan amount by status
+- Transaction volume by account type
+- Customer distribution by city
+- Average account balance by type
+
+Business Scenario:
+This project simulates a digital banking environment where customers hold multiple accounts, perform transactions, apply for loans, and update personal data. Using MongoDB's flexible document model, the database is optimized for fast query and high scalability.
+
 ---
 
 ## 🔨 CRUD Operations (in MongoDB Playground)
@@ -71,12 +81,4 @@ db.getCollection('BS.Customers').updateOne(
   { $set: { phone: "+1-999-888-7777" } }
 );
 
-Aggregation Pipelines:
-Each collection has at least one aggregation pipeline:
-- Total loan amount by status
-- Transaction volume by account type
-- Customer distribution by city
-- Average account balance by type
 
-Business Scenario:
-This project simulates a digital banking environment where customers hold multiple accounts, perform transactions, apply for loans, and update personal data. Using MongoDB's flexible document model, the database is optimized for fast query and high scalability.
